@@ -8,6 +8,10 @@ export default defineConfig({
   resolve: {
     includes: ['./docs'],
   },
+  locales: [
+    ['zh-CN', '中文'],
+    ['en-US', 'English']
+  ],
   navs: [
     null,
     {
